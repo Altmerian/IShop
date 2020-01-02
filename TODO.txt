@@ -1,0 +1,10 @@
+/products
+/ajax/html/more/products
+
+/products/*
+/ajax/html/more/products/*
+
+/search
+/ajax/html/more/search
+
+/shopping-cart
