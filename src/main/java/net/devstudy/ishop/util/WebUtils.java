@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 
  * @author devstudy
- * @see http://devstudy.net
+ * {@see http://devstudy.net}
  */
 public final class WebUtils {
 	public static Cookie findCookie(HttpServletRequest req, String cookieName) {

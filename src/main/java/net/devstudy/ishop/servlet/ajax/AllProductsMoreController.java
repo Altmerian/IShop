@@ -13,7 +13,7 @@ import net.devstudy.ishop.util.RoutingUtils;
 /**
  * 
  * @author devstudy
- * @see http://devstudy.net
+ * {@see http://devstudy.net}
  */
 @WebServlet("/ajax/html/more/products")
 public class AllProductsMoreController extends AbstractController {

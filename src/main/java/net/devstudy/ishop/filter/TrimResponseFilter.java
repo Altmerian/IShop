@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponseWrapper;
 /**
  * 
  * @author devstudy
- * @see http://devstudy.net
+ * {@see http://devstudy.net}
  */
 @WebFilter(filterName="TrimResponseFilter")
 public class TrimResponseFilter extends AbstractFilter {
@@ -32,7 +32,7 @@ public class TrimResponseFilter extends AbstractFilter {
 	/**
 	 * 
 	 * @author devstudy
-	 * @see http://devstudy.net
+	 * {@see http://devstudy.net}
 	 */
 	private static class TrimResponse extends HttpServletResponseWrapper {
 		private TrimProxyWriter trimProxyWriter;
@@ -72,7 +72,7 @@ public class TrimResponseFilter extends AbstractFilter {
 	/**
 	 * 
 	 * @author devstudy
-	 * @see http://devstudy.net
+	 * {@see http://devstudy.net}
 	 */
 	private static class TrimProxyWriter extends Writer {
 		private final Writer wr;

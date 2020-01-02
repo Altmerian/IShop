@@ -5,7 +5,7 @@ import net.devstudy.ishop.service.OrderService;
 /**
  * 
  * @author devstudy
- * @see http://devstudy.net
+ * {@see http://devstudy.net}
  */
 class OrderServiceImpl implements OrderService {
 

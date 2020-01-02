@@ -16,7 +16,7 @@ import net.devstudy.ishop.util.SessionUtils;
 /**
  * 
  * @author devstudy
- * @see http://devstudy.net
+ * {@see http://devstudy.net}
  */
 @WebFilter(filterName="AutoRestoreShoppingCartFilter")
 public class AutoRestoreShoppingCartFilter extends AbstractFilter {

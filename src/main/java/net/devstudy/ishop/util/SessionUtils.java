@@ -10,7 +10,7 @@ import net.devstudy.ishop.model.ShoppingCart;
 /**
  * 
  * @author devstudy
- * @see http://devstudy.net
+ * {@see http://devstudy.net}
  */
 public class SessionUtils {
 	public static ShoppingCart getCurrentShoppingCart(HttpServletRequest req) {

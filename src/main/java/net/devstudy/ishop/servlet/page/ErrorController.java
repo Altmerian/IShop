@@ -13,9 +13,9 @@ import net.devstudy.ishop.util.RoutingUtils;
 /**
  * 
  * @author devstudy
- * @see http://devstudy.net
+ * {@see http://devstudy.net}
  */
-@WebServlet("/error")
+@WebServlet("/ishop/error")
 public class ErrorController extends AbstractController {
 	private static final long serialVersionUID = -4385792519039493271L;
 

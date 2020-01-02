@@ -12,7 +12,7 @@ import net.devstudy.ishop.service.impl.ServiceManager;
 /**
  * 
  * @author devstudy
- * @see http://devstudy.net
+ * {@see http://devstudy.net}
  */
 @WebListener
 public class IShopApplicationListener implements ServletContextListener {

@@ -3,7 +3,7 @@ package net.devstudy.ishop.util;
 /**
  * 
  * @author devstudy
- * @see http://devstudy.net
+ * {@see http://devstudy.net}
  */
 public class UrlUtils {
 

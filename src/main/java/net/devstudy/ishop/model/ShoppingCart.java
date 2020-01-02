@@ -11,7 +11,7 @@ import net.devstudy.ishop.exception.ValidationException;
 /**
  * 
  * @author devstudy
- * @see http://devstudy.net
+ * {@see http://devstudy.net}
  */
 public class ShoppingCart implements Serializable {
 	private static final long serialVersionUID = 1535770438453611801L;

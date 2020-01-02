@@ -12,7 +12,7 @@ import net.devstudy.ishop.service.ProductService;
 /**
  * 
  * @author devstudy
- * @see http://devstudy.net
+ * {@see http://devstudy.net}
  */
 public class ServiceManager {
 	public static ServiceManager getInstance(ServletContext context) {

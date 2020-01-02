@@ -3,7 +3,7 @@ package net.devstudy.ishop;
 /**
  * 
  * @author devstudy
- * @see http://devstudy.net
+ * {@see http://devstudy.net}
  */
 public final class Constants {
 	public static final String CURRENT_SHOPPING_CART = "CURRENT_SHOPPING_CART";
@@ -17,7 +17,7 @@ public final class Constants {
 	/**
 	 * 
 	 * @author devstudy
-	 * @see http://devstudy.net
+	 * {@see http://devstudy.net}
 	 */
 	public enum Cookie {
 		//1 year ttl
