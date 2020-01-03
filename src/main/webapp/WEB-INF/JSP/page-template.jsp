@@ -28,8 +28,8 @@
 	<footer class="footer">
 		<jsp:include page="fragment/footer.jsp" />
 	</footer>
-	<script src="/static/js/jquery.js"></script>
-	<script src="/static/js/bootstrap.js"></script>
-	<script src="/static/js/app.js"></script>
+	<script src="/ishop/static/js/jquery.js"></script>
+	<script src="/ishop/static/js/bootstrap.js"></script>
+	<script src="/ishop/static/js/app.js"></script>
 </body>
 </html>

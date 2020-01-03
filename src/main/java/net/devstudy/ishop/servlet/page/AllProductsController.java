@@ -15,7 +15,7 @@ import net.devstudy.ishop.util.RoutingUtils;
  * @author devstudy
  * {@see http://devstudy.net}
  */
-@WebServlet("/ishop/products")
+@WebServlet("/products")
 public class AllProductsController extends AbstractController {
 	private static final long serialVersionUID = -4385792519039493271L;
 
