@@ -10,7 +10,7 @@
 		<div id="product278009" class="panel panel-default product">
 			<div class="panel-body">
 				<div class="thumbnail">
-					<img src="/ishop/media/736d61727470686f6e65.jpg" alt="Prestigio SH398187">
+					<img src="/media/736d61727470686f6e65.jpg" alt="Prestigio SH398187">
 					<div class="desc">
 						<div class="cell">
 							<p>
@@ -63,7 +63,7 @@
 		<div id="product278018" class="panel panel-default product">
 			<div class="panel-body">
 				<div class="thumbnail">
-					<img src="/ishop/media/736d61727470686f6e65.jpg" alt="Huawei BIC2404">
+					<img src="/media/736d61727470686f6e65.jpg" alt="Huawei BIC2404">
 					<div class="desc">
 						<div class="cell">
 							<p>

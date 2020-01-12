@@ -60,15 +60,38 @@
 			$('#addProductPopup .cost').text(priceStr);
 		}
 	};
+	
+	var convertButtonToLoader = function (btn, btnClass) {
+		btn.removeClass(btnClass);
+		btn.removeClass('btn');
+		btn.addClass('load-indicator');
+		var text = btn.text();
+		btn.text('');
+		btn.attr('data-btn-text', text);
+		btn.off('click');
+	};
+	var convertLoaderToButton = function (btn, btnClass, actionClick) {
+		btn.removeClass('load-indicator');
+		btn.addClass('btn');
+		btn.addClass(btnClass);
+		btn.text(btn.attr('data-btn-text'));
+		btn.removeAttr('data-btn-text');
+		btn.click(actionClick);
+	};
+	
 	var loadMoreProducts = function (){
-		$('#loadMore').addClass('hidden');
-		$('#loadMoreIndicator').removeClass('hidden');
+		var btn = $('#loadMore');
+		convertButtonToLoader(btn, 'btn-success');
+		var url = '/ajax/html/more' + location.pathname + '?' + location.search.substring(1);
 		$.ajax({
-			url : '/ajax/html/more/products',
+			url : url,
 			success : function(html) {
 				$('#productList .text-center').prepend(html);
-				$('#loadMoreIndicator').addClass('hidden');
-				$('#loadMore').removeClass('hidden');
+				convertLoaderToButton(btn, 'btn-success', loadMoreProducts);
+			},
+			error : function(data) {
+				convertLoaderToButton(btn, 'btn-success', loadMoreProducts);
+				alert('Error');
 			}
 		});
 	};

@@ -56,13 +56,13 @@
 <div id="productCatalog" class="panel panel-success collapse">
 	<div class="panel-heading">Product catalog</div>
 	<div class="list-group">
-		<a href="/products" class="list-group-item"> <span class="badge">78</span> E-book
-		</a> <a href="/products" class="list-group-item"> <span class="badge">75</span> Mp3-player
-		</a> <a href="/products" class="list-group-item"> <span class="badge">110</span> Notebook
-		</a> <a href="/products" class="list-group-item"> <span class="badge">113</span> Phone
-		</a> <a href="/products" class="list-group-item"> <span class="badge">216</span> Smartphone
-		</a> <a href="/products" class="list-group-item"> <span class="badge">95</span> Smartwatch
-		</a> <a href="/products" class="list-group-item"> <span class="badge">211</span> Tablet
+		<a href="/products/e-book" class="list-group-item"> <span class="badge">78</span> E-book
+		</a> <a href="/products/mp3" class="list-group-item"> <span class="badge">75</span> Mp3-player
+		</a> <a href="/products/notepad" class="list-group-item"> <span class="badge">110</span> Notebook
+		</a> <a href="/products/phone" class="list-group-item"> <span class="badge">113</span> Phone
+		</a> <a href="/products/smartphone" class="list-group-item"> <span class="badge">216</span> Smartphone
+		</a> <a href="/products/smartwatch" class="list-group-item"> <span class="badge">95</span> Smartwatch
+		</a> <a href="/products/tablet" class="list-group-item"> <span class="badge">211</span> Tablet
 		</a>
 	</div>
 </div>

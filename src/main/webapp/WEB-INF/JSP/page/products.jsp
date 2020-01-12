@@ -7,7 +7,6 @@
 <div id="productList">
 	<jsp:include page="../fragment/product-list.jsp" />
 	<div class="text-center hidden-print">
-        <img id="loadMoreIndicator" src="/ishop/static/img/loading.gif" class="hidden" alt="Loading...">
         <a id="loadMore" class="btn btn-success">Load more products</a>
 	</div>
 </div>

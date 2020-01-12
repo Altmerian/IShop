@@ -6,10 +6,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>&lt;/&gt;DevStudy.net - IShop layout</title>
-<link href="/ishop/static/css/bootstrap.css" rel="stylesheet">
-<link href="/ishop/static/css/bootstrap-theme.css" rel="stylesheet">
-<link href="/ishop/static/css/font-awesome.css" rel="stylesheet">
-<link href="/ishop/static/css/app.css" rel="stylesheet">
+<link href="/static/css/bootstrap.css" rel="stylesheet">
+<link href="/static/css/bootstrap-theme.css" rel="stylesheet">
+<link href="/static/css/font-awesome.css" rel="stylesheet">
+<link href="/static/css/app.css" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -28,8 +28,8 @@
 	<footer class="footer">
 		<jsp:include page="fragment/footer.jsp" />
 	</footer>
-	<script src="/ishop/static/js/jquery.js"></script>
-	<script src="/ishop/static/js/bootstrap.js"></script>
-	<script src="/ishop/static/js/app.js"></script>
+	<script src="/static/js/jquery.js"></script>
+	<script src="/static/js/bootstrap.js"></script>
+	<script src="/static/js/app.js"></script>
 </body>
 </html>
